@@ -35,7 +35,7 @@ typewrite-text: "Hello! welcome to my homepage! I'm a web developer"
 author_work_experiences:
             - company_name: BottomHalf
               company_logo: bmlogo.png
-              company_url: https://google.com
+              company_url: https://.com
               designation: Associate Developer
               description: Web Development Company - Worked on a school website development, with Angular and MySQL framework
               visibility: true
@@ -57,16 +57,16 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: p3.png
+                project_title: E-Commerce Website
+                project_description: A Platform built for shopping with 3D view of products.
+                project_url: https://club88.netlify.app/
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+              # - project_thumbnail: hack4r.PNG
+              #   project_title: Hack4r
+              #   project_description: A Platform built for Hackers and Penetration Testers
+              #   project_url: https://hack4r.com
+              #   visibility: true
 
 # social links
 # twitter_username: johndoe
