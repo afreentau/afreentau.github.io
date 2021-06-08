@@ -16,16 +16,16 @@ layout: full-width
          {%- include github_star_button.html -%}
          {%- include github_fork_button.html -%}
     </div>
-    <div class="col-lg-8 offset-md-2">
+    <div class="col-lg-12">
       <section id="recent-articles">
-        <div id="recent-articles-header">
-          <div id="recent-articles-title">
+        <!-- <div id="recent-articles-header"> -->
+          <!-- <div id="recent-articles-title">
             <h1 class="card-title">Recent Articles</h1>
-          </div>
-          <div id="recent-articles-show-all">
+          </div> -->
+          <!-- <div id="recent-articles-show-all">
             <a class="btn btn-lg btn-dark" href="/blog"> View All </a>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div> -->
         <br />
 
         <ul>
@@ -33,7 +33,7 @@ layout: full-width
           <li class="article-card">
             <a href="{{post.url}}" class="article-card-link">
               <div id="article-container">
-                <div id="article-img">
+                <!-- <div id="article-img">
                   {% if post.author %}
                     {% assign author = post.author %}
                     {% if author %}
@@ -46,13 +46,13 @@ layout: full-width
                     {% endif %}
                   {% endif %}
 
-                </div>
-                <div id="article-link">
+                </div> -->
+                <!-- <div id="article-link">
                     <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span></p>
-                  </div>
+                  </div> -->
                   <div id="article-alert">
                   {% for cat in post.category limit:1 %}
-                   <button class="btn btn-sm btn-dark">{{cat}}</button>
+                   <!-- <button class="btn btn-sm btn-dark">{{cat}}</button> -->
                   {% endfor %}
                   </div>
               </div>

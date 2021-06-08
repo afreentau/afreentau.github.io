@@ -24,33 +24,33 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
+author_logo: my.png
 author: Afreen T Ahamed 
-author_bio: Hi, my name is Afreen T Ahamed . I built this site using devlopr-jekyll :D
+author_bio: Hi, my name is Afreen T Ahamed.A Graduate with major in Bachelor’s of Computer Applications looking for a full-time job where I can apply my extensive skills and knowledge to the position for which I am hired. 
 author_email: "aafreentau@gmail.com"
 author_location: India
 author_website_url: ""
 typewrite-text: "Hello! welcome to my homepage! I'm a web developer"
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
+            - company_name: BottomHalf
+              company_logo: bmlogo.png
               company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+              designation: Associate Developer
+              description: Web Development Company - Worked on a school website development, with Angular and MySQL framework
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: United We Care
+              company_logo: uwclogo.png
+              company_url: https://odoo.unitedwecare.ca/
+              designation: Odoo Developer
+              description: Heath Wellness Company -Supported in development of a Chatbot Software and Website, using Odoo14 framework.
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
+              - college_logo: college_img.png
+                college_name: Jain University
+                college_url: https://set.jainuniversity.ac.in/
                 college_degree: CS Engineer
                 description: Bachelor of Technology
                 visibility: true
