@@ -14,12 +14,12 @@ urls:
       url: /about
     # - text: Blog
     #   url: /blog
-    - text: Gallery
-      url: /gallery
+    # - text: Gallery
+    #   url: /gallery
     # - text: Shop
     #   url : /shop
-    - text: Contact
-      url : /contact
+    # - text: Contact
+    #   url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -42,7 +42,7 @@ author_work_experiences:
             - company_name: United We Care
               company_logo: uwclogo.png
               company_url: https://odoo.unitedwecare.ca/
-              designation: Odoo Developer
+              designation: Junior Developer
               description: Heath Wellness Company -Supported in development of a Chatbot Software and Website, using Odoo14 framework.
               visibility: true
 
